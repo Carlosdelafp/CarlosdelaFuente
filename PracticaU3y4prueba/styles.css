@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px; /* Espacio para el footer */
+    background-color: black;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category p {
+    margin: 0;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+.producto {
+    width: 200px;
+    height: 250px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.line {
+    border:  solid #ff00ff;
+    width: 100%;
+}
+
+.footer img {
+    width: 5%; /* Ajusta el tamaño de las imágenes según tus necesidades */
+    margin: 5%; /* Añade un espacio entre las imágenes */
+}
